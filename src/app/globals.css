@@ -1,11 +1,4 @@
 :root {
-  --text-secondary: #2c2c2c;
-  --bg-primary: #f9f9f9;
-  --bg-secondary: #eeeeee;
-  --bg-price: #373737;
-  --color-primary: #fff;
-  --color-secondary: #0F52BA;
-
   text-rendering: optimizeLegibility;
   
   -webkit-font-smoothing: antialiased;
@@ -22,6 +15,10 @@
 }
 
 body {
-  margin: 0;
-  background: var(--bg-secondary);
+ margin: 0;
+}
+
+main {
+  width: 100%;
+  height: 100%;
 }
