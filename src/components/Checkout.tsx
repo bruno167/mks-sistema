@@ -39,13 +39,16 @@ const CloseButton = styled.button`
     background: #000;
     border: none;
     border-radius: 100%;
-    cursor: pointer;
     display: grid;
     place-items: center;
     color: #fff;
+    
+    cursor: pointer;
+    
 `;
 
 const CartList = styled.ul`
+    overflow-y: scroll;
     height: 80%;
     padding: 0;
     list-style: none;
@@ -70,6 +73,7 @@ const CheckoutPurchaseButton = styled.button`
     font-size: 1.2rem;
     font-weight: 700;
     width: 100%;
+    cursor: pointer;
 `;
 
 export default function Checkout() {
